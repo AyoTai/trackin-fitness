@@ -2,7 +2,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 const path = require("path");
 const logger = require("morgan");
-// require("dotenv").config();
+require("dotenv").config();
 const PORT = process.env.PORT || 8989;
 const db = require("./models");
 const app = express();
