@@ -13,7 +13,7 @@
   ## Usage
   npm run start
 <!--   [Link to portfolio](https://ayotai.github.io/react-portfolio/) -->
-<!--   ![screenshot](./src/assets/images/page.jpg) -->
+  ![screenshot](./public/images/fitnessSS.PNG)
   
   ## Credits
   Stackedoverflow.com
