@@ -27,16 +27,6 @@ app.get("/stats", (req, res) =>{
     res.sendFile(path.join(__dirname, "./public/stats.html"));
 });
 
-// app.get("/api/workouts", (req, res) =>{
-//     db.Workout.find({})
-//     .then(dbWorkout => {
-//         res.json(dbWorkout);
-//     })
-//     .catch(err => {
-//         res.json(err);
-//     });
-// });
-
 app.put("/api/workouts/:id", ({body, params},res) => {
     const id = params.id
     db.Workout.findByIdAndUpdate(id, {$push: {exercises: body}},  { new: true, runValidators: true })
