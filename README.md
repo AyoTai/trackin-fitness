@@ -12,7 +12,7 @@
 
   ## Usage
   npm run start
-<!--   [Link to portfolio](https://ayotai.github.io/react-portfolio/) -->
+  [Link to Deployed](https://vast-thicket-12652.herokuapp.com/)
   ![screenshot](./public/images/fitnessSS.PNG)
   
   ## Credits
